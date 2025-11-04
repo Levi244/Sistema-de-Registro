@@ -1,2 +1,5 @@
-# Sistema-de-Registro
-Sistema de registro usando Html,css e JavaScript
+# System Logger
+
+- Sistema de cadastro e login com armazemanto de dados in memory usando LocalStorage.
+
+- HTML, CSS e JavaScript

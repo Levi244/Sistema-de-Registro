@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/form.css">
+    <title>Recuperar</title>
+  </head>
+  <body>
+    <form>
+      <h1>recuperação</h1>
+      <div class="inputs">
+        <input type="password" id="passwordRecovery" placeholder="Nova Senha" required>
+        <input type="password" id="passwordConfirmRecovery" placeholder="Confirmar Nova Senha" required>
+      </div>
+      <div class="show" id="show">
+        <input type="checkbox" id="showPassword">
+        <label for="showPassword">Mostrar Senha</label>
+      </div>
+      <button type="button" id="recovery">Recuperar</button>
+      <div class="smalls">
+        <small>Voltar para <a href="./login.html">login</a>.</small>
+      </div>
+    </form>
+    <script src="../scripts/recovery.js"></script>
+  </body>
+</html>
